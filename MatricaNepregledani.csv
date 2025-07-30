@@ -1,0 +1,11 @@
+﻿OSR,Sezona,SignaliJU,OpisKSR
+Nizak,*,*,Nizak
+Srednji,*,*,Srednji
+Srednji,Vrhunac,Jasan,Visok
+Srednji,Periferni,Alarmantan,Visok
+Veliki,*,*,Srednji
+Veliki,*,Slab,Visok
+Veliki,Periferni,*,Visok
+Veliki,Periferni,Alarmantan,Kritičan
+Veliki,Vrhunac,Jasan,Kritičan
+Veliki,Vrhunac,Alarmantan,Kritičan
