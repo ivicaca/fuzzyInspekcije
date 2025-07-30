@@ -1,0 +1,6 @@
+OSR,Sezona,SignaliJU,Procena_KSR
+Nizak,Van,Nema,"(np.float64(2.0), 'Nizak')"
+Srednji,Van,Slab,"(np.float64(6.0), 'Srednji')"
+Srednji,Vrhunac,Jasan,"(np.float64(8.0), 'Visok')"
+Veliki,Van,Slab,"(np.float64(8.0), 'Visok')"
+Veliki,Vrhunac,Alarmantan,"(np.float64(10.0), 'Kritičan')"
