@@ -2,7 +2,7 @@ from fuzzy_risk_model_single import FuzzyRiskModel
 import pandas as pd
 
 # Inicijalizuj model sa putanjom do matrice odlučivanja
-model = FuzzyRiskModel("MatricaNepregledani.csv")
+model = FuzzyRiskModel("matrica_novi.csv")
 
 # Učitaj fajl sa novim subjektima
 ulazni_fajl = "NoviSubjektiTest.csv"

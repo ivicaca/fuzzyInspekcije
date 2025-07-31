@@ -1,0 +1,16 @@
+﻿OSR,VremeOdKontrole,OpsteStanjeSubjekta,Sezona,SignaliJU,OpisKSR
+*,Nedavno,*,*,*,Nizak
+*,Nedavno,*,*,Jasan,Srednji
+*,Nedavno,*,Vrhunac,*,Srednji
+Srednje,Nedavno,*,*,*,Srednji
+*,Nedavno,Srednje,*,*,Srednji
+*,Nedavno,Srednje,*,*,Visok
+Nizak,*,*,*,*,Nizak
+Srednje,*,*,*,*,Srednji
+Srednje,*,*,Vrhunac,Jasan,Visok
+Srednje,*,*,Periferni,Alarmantan,Visok
+Veliki,*,*,*,*,Srednji
+Veliki,*,*,*,Slab,Visok
+Veliki,*,*,Periferni,*,Visok
+Veliki,*,*,Vrhunac,Jasan,Kritičan
+Veliki,*,*,Vrhunac,Alarmantan,Kritičan
