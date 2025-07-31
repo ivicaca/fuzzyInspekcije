@@ -75,15 +75,18 @@
 | *     | Periferni | *       | Davno        | Loše                | Visok     |
 
 
-
-*У овом примеру, субјекат са OSR=Visok, Sezona=Van, SignaliJU=Slab, VremeKontrole=URoku и OpsteStanjeSubjekta=Dobro добија излазни ризик KSR=Srednji.*
+* matrica_novi не садржи колоне ВремеКонтроле и ОпштеСтање субјекта. 
+** На основу матрице субјекат са OSR=Visok, Sezona=Van, SignaliJU=Slab, VremeKontrole=URoku и OpsteStanjeSubjekta=Dobro добија излазни ризик KSR=Srednji.*
 
 ---
 
-### Пример улазног субјекта за тестирање (npr. у `NoviSubjektiTest.csv`):
+### Пример улазног субјекта за тестирање (npr. у `SubjektiTestNovi.csv`):
 
 | OSR   | Sezona | SignaliJU | VremeKontrole | OpsteStanjeSubjekta |
 |-------|--------|-----------|---------------|---------------------|
 | Visok | Van    | Slab      | URoku         | Dobro               |
+
+
+
 
 ---
