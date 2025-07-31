@@ -4,6 +4,13 @@ OSR,Nizak,trapmf,1.5,3,3.5,5
 OSR,Srednji,trapmf,3.5,5,6,7.5
 OSR,Visok,trapmf,6,7.5,8,9.5
 OSR,Kritican,trapmf,8,9.5,10,10
+VremeKontrole,Nedavno,trapmf,0,0,2,3
+VremeKontrole,URoku,trapmf,2,3,5,6
+VremeKontrole,PrekoracenRok,trapmf,5,6,7,8
+VremeKontrole,DavnoPrekoracenRok,trapmf,7,8,10,10
+StanjeSubjekta,Dobro,trapmf,0,0,2,4
+StanjeSubjekta,Srednje,trapmf,2,4,6,8
+StanjeSubjekta,Lose,trapmf,6,8,10,10
 Sezona,Van,trapmf,0,0,2,4
 Sezona,Periferni,trapmf,2,4,6,8
 Sezona,Vrhunac,trapmf,6,8,10,10
@@ -15,9 +22,3 @@ KSR,Nizak,trapmf,0,0,2.5,4
 KSR,Srednji,trapmf,4,5,7,8
 KSR,Visok,trapmf,8,9,10.5,11
 KSR,Kritican,trapmf,11,12,13,13
-VremeKontrole,Neposredno,trapmf,0,0,1,2
-VremeKontrole,Skoro,trapmf,1,2,3,4
-VremeKontrole,Davno,trapmf,3,4,5,5
-StanjeSubjekta,Dobro,trapmf,0,0,2,4
-StanjeSubjekta,Zadovoljavajuce,trapmf,3,5,7,9
-StanjeSubjekta,Lose,trapmf,7,8,10,10

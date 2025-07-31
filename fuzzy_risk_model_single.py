@@ -78,22 +78,21 @@ class FuzzyRiskModel:
 
     def _generate_rules(self):
         self.rules = []
+        # Све колоне које НИСУ KSR/OpisKSR третирај као улазне!
+        input_vars = [col for col in self.df.columns if col not in ['KSR', 'OpisKSR']]
         for _, row in self.df.iterrows():
-            osr = self._fuzzy_set('OSR', row['OSR'])
-            sezona = self._fuzzy_set('Sezona', row['Sezona'])
-            signali = self._fuzzy_set('SignaliJU', row['SignaliJU'])
+            uslovi = []
+            for var in input_vars:
+                val = self._fuzzy_set(var, row[var])
+                if val is not None:
+                    uslovi.append(val)
             izlaz = self._fuzzy_set('KSR', row['OpisKSR'])
-
-            uslovi = [c for c in [osr, sezona, signali] if c is not None]
             if not uslovi or izlaz is None:
                 continue
-
             uslov = uslovi[0]
             for u in uslovi[1:]:
                 uslov = uslov & u
-
             self.rules.append(ctrl.Rule(uslov, izlaz))
-
         print(f"Generisano {len(self.rules)} fuzzy pravila.")
 
     def _create_system(self):

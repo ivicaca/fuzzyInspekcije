@@ -11,9 +11,10 @@ SignaliJU,Nema,1
 SignaliJU,Slab,4
 SignaliJU,Jasan,6
 SignaliJU,Alarmantan,9
-VremeKontrole,Neposredno,1
-VremeKontrole,Skoro,5
-VremeKontrole,Davno,9
+VremeKontrole,Nedavno,1
+VremeKontrole,URoku,3
+VremeKontrole,PrekoracenRok,6
+VremeKontrole,DavnoPrekoracenRok,9
 StanjeSubjekta,Dobro,1
-StanjeSubjekta,Zadovoljavajuce,5
+StanjeSubjekta,Srednje,5
 StanjeSubjekta,Lose,9
