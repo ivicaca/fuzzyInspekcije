@@ -95,14 +95,7 @@ Fajl **`fuzzy_config_var.csv`** definiše sve fuzzy ulazne promenljive i njihove
 - \(a\) i \(d\) predstavljaju početak i kraj dometa sa pripadnošću 0,
 - \(b\) i \(c\) definišu oblast sa pripadnošću 1 (vrh trapeza).
 
-      μ(x)
-       |
-     1 |           _______
-       |          /       \
-       |         /         \
-       |        /           \
-     0 |_______/             \_______
-       |  a    b     c     d       x
+ <img width="304" height="185" alt="image" src="https://github.com/user-attachments/assets/8a779f5e-d707-4a62-8a2d-9df49617d20f" />
 
 
 Kao rezultat, `fuzzy_config_var.csv` služi kao konfiguraciona tačka za definisanje fuzzy vrednosti bez potrebe za promenom izvornog koda.
