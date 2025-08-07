@@ -88,5 +88,23 @@
 
 
 
+### Opis fajla `fuzzy_config_var.csv`
+
+Fajl **`fuzzy_config_var.csv`** definiše sve fuzzy ulazne promenljive i njihove funkcije pripadnosti (membership functions) koje se koriste u sistemu. Konkretno, za svaku promenljivu navode se termini (lingvističke vrednosti) i pripadajući parametri za trapezoidnu funkciju pripadnosti (`trapmf`) — funkciju čija grafička reprezentacija ima trapezoidni oblik, definisana parametrima \(a, b, c, d\), gde:
+
+- \(a\) i \(d\) predstavljaju početak i kraj dometa sa pripadnošću 0,
+- \(b\) i \(c\) definišu oblast sa pripadnošću 1 (vrh trapeza).
+
+      μ(x)
+       |
+     1 |           _______
+       |          /       \
+       |         /         \
+       |        /           \
+     0 |_______/             \_______
+       |  a    b     c     d       x
+
+
+Kao rezultat, `fuzzy_config_var.csv` služi kao konfiguraciona tačka za definisanje fuzzy vrednosti bez potrebe za promenom izvornog koda.
 
 ---
